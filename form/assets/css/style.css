@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+section{
+    display: flex;
+    & .img{
+        width: 687px;
+        height: 1031px;
+    }
+    & .container {
+        display: flex;
+        flex-direction: column;
+        padding: 35px;
+        gap: 25px;
+
+        width: 504px;
+        height: 617px;
+        border-radius: 10px;
+
+}
